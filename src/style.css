@@ -35,6 +35,30 @@ p {
   text-align: left;
 }
 
+@media (max-width: 576px) {
+  .homepage-img {
+    display: none;
+  }
+
+  .app-info,
+  h2 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .primary-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-title {
+    font-size: 30px;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
